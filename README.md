@@ -1,9 +1,190 @@
-## 🕹️ King, Cyberpunk QA Operative
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnishJainPortfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* --- Global Styles --- */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto', sans-serif; }
+body { background-color:#0f111a; color:#f5f5f5; line-height:1.6; }
+a { color:#00f0ff; text-decoration:none; transition:0.3s; }
+a:hover { color:#00c5ff; }
+section { padding:80px 20px; }
+h1,h2,h3{ margin-bottom:20px; }
 
-**Class:** QA  
-**XP:** ![XP](https://img.shields.io/badge/XP-60%25-0ff)  
-**Skills:** Selenium ⚡ TestNG ⚡ Cucumber ⚡ Manual Testing  
+/* --- Header / Hero --- */
+header { background-color:#11121f; padding:60px 20px; text-align:center; }
+header h1{ font-size:3em; color:#00f0ff; }
+header p{ font-size:1.2em; color:#ccc; margin-top:10px; }
 
-> "Breaking the system to find its flaws… one bug at a time." 💾
+/* --- About --- */
+#about { max-width:900px; margin:0 auto; text-align:center; }
+#about p{ margin-top:20px; font-size:1.1em; }
 
+/* --- Skills --- */
+#skills { background-color:#11121f; text-align:center; }
+.skill-container { display:flex; justify-content:center; flex-wrap:wrap; gap:20px; margin-top:20px; }
+.skill-category { margin:20px; }
+.skill-category h3 { margin-bottom:10px; color:#00f0ff; }
+.skill { background-color:#1c1d2c; padding:10px 20px; border-radius:8px; font-weight:bold; display:inline-block; margin:5px; }
 
+/* --- Projects --- */
+#projects { max-width:1000px; margin:0 auto; }
+.projects-wrapper { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; }
+.project-card { background-color:#1c1d2c; border-radius:12px; width:300px; overflow:hidden; transition:transform 0.3s; box-shadow:0 4px 15px rgba(0,0,0,0.3); }
+.project-card img{ width:100%; height:180px; object-fit:cover; }
+.project-card div{ padding:15px; }
+.project-card h3{ margin-bottom:10px; color:#00f0ff; }
+.project-card p{ font-size:0.95em; color:#aaa; }
+.project-card a { display:inline-block; margin-top:10px; color:#00f0ff; }
+
+/* --- Education & Training --- */
+#education, #certifications { max-width:800px; margin:0 auto; }
+.item { background-color:#1c1d2c; padding:15px 20px; border-radius:8px; margin-bottom:15px; }
+
+/* --- Contact --- */
+#contact { text-align:center; }
+#contact a { display:inline-block; margin:10px; font-weight:bold; padding:10px 20px; border:1px solid #00f0ff; border-radius:6px; }
+
+/* --- Footer --- */
+footer { text-align:center; padding:20px; background-color:#11121f; font-size:0.9em; color:#888; }
+
+/* --- Responsive --- */
+@media(max-width:600px){ header h1{font-size:2.2em;} }
+</style>
+</head>
+<body>
+
+<!-- Header / Hero -->
+<header>
+<h1>Anish Jain</h1>
+<p>QA & Automation Engineer | Manual & Selenium Testing</p>
+<p>Passionate about quality, automation, and delivering bug-free software</p>
+</header>
+
+<!-- About Me -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a motivated QA Engineer with professional training in Manual and Automation Testing from Pentagon Space, Bangalore. 
+Skilled in SDLC, STLC, Selenium, Cucumber, TestNG, and defect tracking, I apply real-world scenarios to deliver high-quality testing solutions.
+I have hands-on experience in creating automation frameworks and performing API testing integrated with CI/CD pipelines, reducing manual testing effort by up to 60%.
+</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="skill-container">
+  <div class="skill-category">
+    <h3>Testing Tools</h3>
+    <div class="skill">Selenium</div>
+    <div class="skill">Cucumber</div>
+    <div class="skill">TestNG</div>
+  </div>
+  <div class="skill-category">
+    <h3>Languages</h3>
+    <div class="skill">Java</div>
+    <div class="skill">SQL</div>
+  </div>
+  <div class="skill-category">
+    <h3>Version Control / CI/CD</h3>
+    <div class="skill">Git</div>
+    <div class="skill">GitHub</div>
+    <div class="skill">Jenkins (basic)</div>
+  </div>
+  <div class="skill-category">
+    <h3>API Testing</h3>
+    <div class="skill">Postman</div>
+    <div class="skill">REST Validation</div>
+  </div>
+</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+<h2 style="text-align:center; margin-bottom:40px;">Projects</h2>
+<div class="projects-wrapper">
+
+  <div class="project-card">
+    <img src="C:\Users\anish\Downloads\Automation-Testing-social.jpg" alt="Project 1">
+    <div>
+      <h3>Selenium Automation Framework</h3>
+      <p>BDD framework using Selenium, Java, TestNG, and Cucumber to automate registration, login, and search workflows, reducing manual testing by 60%.</p>
+      <a href="https://github.com/anishjain26/Selenium-Cucumber-Framework.git" target="_blank">See Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="C:\Users\anish\Downloads\api-testing1.jpg" alt="Project 2">
+    <div>
+      <h3>Postman API Project</h3>
+      <p>Built an automation suite that validates Create, Read, Update, and Delete operations for a sample web application using Selenium WebDriver, Java, TestNG, and Page Object Model (POM). Designed reusable functions, implemented assertions for response and UI validation, and generated execution reports.</p>
+      <a href="https://github.com/anishjain26/RestfulBookingProject-PostmanAPI-.git" target="_blank">See Project</a>
+    </div>
+  </div>
+   <div class="project-card">
+    <img src="C:\Users\anish\Downloads\6742562.png" alt="Project 3">
+    <div>
+      <h3>Zepto Mobile Testing(Mini Project)</h3>
+      <p>Performed end-to-end testing for the Zepto online grocery delivery application, validating user flows such as product search, cart operations, checkout, and order tracking. Designed test cases, executed functional testing, and reported defects for UI responsiveness, API response accuracy, and business logic validation.</p>
+      <a href="https://github.com/anishjain26/Zepto-MobileTesting-ManualTesting-.git" target="_blank">See Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="C:\Users\anish\Downloads\mtesting-card.png" alt="Project 4">
+    <div>
+      <h3>Manual Testing Projects</h3>
+      <p>Executed end-to-end manual testing of web applications, created detailed test cases, reported bugs, and collaborated with developers to ensure high-quality releases.</p>
+      <a href="https://github.com/anishjain26/TutorialsNinja-Ecommerce-Manual-Testing-.git" target="_blank">See Project</a>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Education & Training -->
+<section id="education">
+<h2 style="text-align:center;">Education & Training</h2>
+<div class="item">
+<h3>Professional Training</h3>
+<p>Pentagon Space, Bangalore | Manual & Automation Testing</p>
+<p>Hands-on training in SDLC, STLC, Selenium, Cucumber, TestNG, defect tracking, and real-world automation projects.</p>
+</div>
+<div class="item">
+<h3>Bachelor of Vocational Course</h3>
+<p>SDM Degree College | Software and App Development | 2025</p>
+</div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications">
+<h2 style="text-align:center;">Certifications</h2>
+<div class="item">
+<h3>Online Courses & Badges</h3>
+<p>Udemy / LinkedIn Learning courses on Java, Selenium, API Testing, and QA methodologies.</p>
+</div>
+<div class="item">
+<h3>Upcoming</h3>
+<p>Planning to pursue ISTQB Foundation Level Certification.</p>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+<h2>Contact Me</h2>
+<a href="mailto:your-email@example.com">Email Me</a>
+<a href="https://github.com/yourusername" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/anishjain01" target="_blank">LinkedIn</a>
+</section>
+
+<!-- Footer -->
+<footer>
+&copy; 2025 King | QA & Automation Engineer
+</footer>
+
+</body>
+</html>
